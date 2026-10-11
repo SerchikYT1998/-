@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="5-дневный историко-культурный тур по замкам Западной Беларуси: Мир, Несвиж, Новогрудок, Лида, Гродно, Ружаны и Коссово.">
+<title>Замки Западной Беларуси — путешествие в историю</title>
+<style>
+:root{--ink:#17241e;--green:#203b30;--green2:#315746;--gold:#d7b778;--cream:#f6f3ec;--muted:#6d756e;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:absolute;top:0;left:0;right:0;z-index:5;color:white;padding:22px 0;border-bottom:1px solid #ffffff35}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.08em;font-size:15px}.brand span{color:var(--gold)}nav{display:flex;gap:24px;font-size:13px}nav a{opacity:.9}nav a:hover{color:var(--gold)}
+.hero{min-height:690px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(10,23,18,.86),rgba(10,23,18,.42) 60%,rgba(10,23,18,.16)),url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Belarus-Mir-Castle-11.jpg') center/cover}
+.hero-content{padding:140px 0 90px;max-width:720px}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.19em;font-size:12px;font-weight:700}.hero h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(44px,7vw,82px);line-height:1.02;margin:18px 0}.hero p{font-size:18px;max-width:590px;color:#f0eee8}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:3px;background:var(--gold);color:#17241e;font-weight:800;font-size:13px;border:1px solid var(--gold);cursor:pointer}.btn.outline{background:transparent;color:white;border-color:#ffffff9c}.facts{display:flex;flex-wrap:wrap;gap:28px;margin-top:48px}.fact{border-left:2px solid var(--gold);padding-left:13px}.fact strong{display:block;font-size:20px}.fact span{font-size:12px;color:#e2e0d9}
+section{padding:82px 0}.section-top{max-width:680px;margin-bottom:35px}.section-top .eyebrow{color:var(--green2)}h2{font:500 clamp(32px,4vw,48px)/1.12 Georgia,serif;margin:12px 0 14px} .lead{color:var(--muted);font-size:16px}.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}.intro-photo{min-height:420px;border-radius:4px;background:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Nesvizh_Castle_2011.JPG/1280px-Nesvizh_Castle_2011.JPG') center/cover;box-shadow:18px 18px 0 #e4d8bf}.checklist{padding:0;list-style:none}.checklist li{padding:10px 0 10px 30px;position:relative;border-bottom:1px solid #ddd8ce}.checklist li:before{content:"✦";position:absolute;left:0;color:#a88648}
+.dark{background:var(--green);color:white}.dark .section-top .eyebrow{color:var(--gold)}.dark .lead{color:#d1d9d2}
+.route-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.stop{background:#ffffff0b;border:1px solid #ffffff24;padding:24px;border-radius:4px;min-height:190px}.stop .num{font-size:12px;color:var(--gold);letter-spacing:.12em}.stop h3{font:500 25px Georgia,serif;margin:12px 0}.stop p{font-size:14px;color:#d1d9d2;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:white;border-radius:4px;overflow:hidden;box-shadow:0 8px 28px #18261a0b}.card-img{height:210px;background-size:cover;background-position:center}.card-body{padding:22px}.card h3{font:500 25px Georgia,serif;margin:0 0 8px}.card p{font-size:14px;color:var(--muted);margin:0 0 14px}.price{color:var(--green2);font-weight:800}.tag{display:inline-block;background:#f0eadc;color:#6f552b;padding:4px 8px;font-size:11px;border-radius:2px;margin-bottom:12px}
+.program{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.day{border-top:3px solid var(--gold);padding:18px 15px;background:#fff}.day b{font-size:11px;letter-spacing:.12em;color:#8c6b30}.day h3{font:500 22px Georgia,serif;margin:8px 0}.day p{font-size:13px;color:var(--muted)}
+.stay-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.stay{padding:20px;background:#fff;border:1px solid #e6e0d5}.stars{color:#9a793b;font-size:12px;letter-spacing:.08em}.stay h3{font:500 20px Georgia,serif;margin:8px 0}.stay p{font-size:13px;color:var(--muted)}
+.audience{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.audience div{padding:22px;background:#ebe5d8;text-align:center;font-weight:700;font-size:14px}
+.booking{background:linear-gradient(120deg,#203b30,#13251d);color:white}.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.booking .lead{color:#d1d9d2}form{display:grid;gap:12px}input,select,textarea{width:100%;padding:14px 13px;border:1px solid #ffffff35;background:#ffffff10;color:white;border-radius:2px;font:inherit}input::placeholder,textarea::placeholder{color:#d0d5d0}select option{color:#17241e}form small{color:#c8d1ca;font-size:11px}footer{padding:25px 0;background:#101c16;color:#bdc6be;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}.intro-grid,.booking-grid{grid-template-columns:1fr}.route-grid,.cards{grid-template-columns:repeat(2,1fr)}.program{grid-template-columns:repeat(2,1fr)}.stay-grid,.audience{grid-template-columns:repeat(2,1fr)}.intro-photo{min-height:300px}}
+@media(max-width:560px){header{padding:16px 0}.nav{align-items:flex-start}.brand{max-width:130px}nav{font-size:11px;gap:8px}.hero{min-height:720px}.hero-content{padding-top:150px}.hero p{font-size:16px}.facts{gap:16px}.route-grid,.cards,.program{grid-template-columns:1fr}.stay-grid,.audience{grid-template-columns:1fr 1fr}section{padding:60px 0}.intro-photo{box-shadow:8px 8px 0 #e4d8bf}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#home">WEST BELARUS <span>／</span> CASTLES</a><nav><a href="#about">О туре</a><a href="#route">Маршрут</a><a href="#program">Программа</a><a href="#stay">Проживание</a><a href="#booking">Бронирование</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap"><div class="hero-content"><div class="eyebrow">Историко-культурный тур · Беларусь</div><h1>Замки<br>Западной Беларуси</h1><p>Пять дней среди средневековых стен, дворцовых историй и легенд, которые хранят старинные города Беларуси.</p><div class="actions"><a class="btn" href="#booking">Забронировать тур ↗</a><a class="btn outline" href="#route">Изучить маршрут</a></div><div class="facts"><div class="fact"><strong>5 дней / 4 ночи</strong><span>насыщенное путешествие</span></div><div class="fact"><strong>7 объектов</strong><span>замки и дворцы</span></div><div class="fact"><strong>20 человек</strong><span>размер группы</span></div></div></div></div></section>
+<section id="about"><div class="wrap intro-grid"><div><div class="section-top"><div class="eyebrow">О путешествии</div><h2>История, которую можно увидеть</h2><p class="lead">Это путешествие знакомит с архитектурой, культурой и историческим наследием Беларуси — от знаменитых замков до дворцовых комплексов знатных родов.</p></div><ul class="checklist"><li>Организованное путешествие на туристическом автобусе</li><li>Семь исторических объектов в одном маршруте</li><li>Подходит молодёжи, семьям и любителям архитектуры</li><li>Возможность открыть новые места и сделать памятные фотографии</li></ul></div><div class="intro-photo" role="img" aria-label="Исторический замок у воды"></div></div></section>
+<section class="dark" id="route"><div class="wrap"><div class="section-top"><div class="eyebrow">Путь по карте</div><h2>Маршрут тура</h2><p class="lead">Старт и возвращение — Минск. Путешествуем по историческим городам и замковым комплексам Западной Беларуси.</p></div><div class="route-grid">
+<div class="stop"><span class="num">01 / МИНСК → МИР</span><h3>Мирский замок</h3><p>Знаменитая крепость XVI века и один из символов белорусского наследия.</p></div>
+<div class="stop"><span class="num">02 / НЕСВИЖ</span><h3>Несвижский замок</h3><p>Бывшая резиденция Радзивиллов, дворцовые интерьеры и парк.</p></div>
+<div class="stop"><span class="num">03 / НОВОГРУДОК</span><h3>Новогрудский замок</h3><p>Руины древней крепости на холме с панорамой города.</p></div>
+<div class="stop"><span class="num">04 / ЛИДА</span><h3>Лидский замок</h3><p>Средневековая крепость, связанная с именем князя Гедимина.</p></div>
+<div class="stop"><span class="num">05 / ГРОДНО</span><h3>Старый замок</h3><p>Королевская история и архитектурное наследие Гродно.</p></div>
+<div class="stop"><span class="num">06 / РУЖАНЫ</span><h3>Дворец Сапегов</h3><p>Руины дворцового комплекса влиятельного магнатского рода.</p></div>
+<div class="stop"><span class="num">07 / КОССОВО</span><h3>Коссовский дворец</h3><p>Неоготическая архитектура и живописное окружение.</p></div>
+<div class="stop"><span class="num">ФИНИШ</span><h3>Возвращение в Минск</h3><p>Завершение путешествия и новые впечатления о Беларуси.</p></div>
+</div></div></section>
+<section id="sights"><div class="wrap"><div class="section-top"><div class="eyebrow">Главные впечатления</div><h2>Семь мест — семь историй</h2><p class="lead">Каждый объект раскрывает отдельную страницу истории и архитектуры страны.</p></div><div class="cards">
+<article class="card"><div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Belarus-Mir-Castle-11.jpg')"></div><div class="card-body"><span class="tag">МИР</span><h3>Мирский замок</h3><p>Архитектура готики, ренессанса и барокко; объект Всемирного наследия ЮНЕСКО.</p><span class="price">Билет в презентации: 22 BYN</span></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Nesvizh_Castle_2011.JPG/1280px-Nesvizh_Castle_2011.JPG')"></div><div class="card-body"><span class="tag">НЕСВИЖ</span><h3>Несвижский замок</h3><p>Резиденция Радзивиллов с богатой историей и дворцовым парком.</p><span class="price">Билет в презентации: 21 BYN</span></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/6/66/Novogrudok_ruin.jpg')"></div><div class="card-body"><span class="tag">НОВОГРУДОК</span><h3>Новогрудский замок</h3><p>Руины средневековой крепости на возвышенности.</p><span class="price">Билет в презентации: 4 BYN</span></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a9/Belarus_Lida_Castle_IMG_1570_2175.jpg')"></div><div class="card-body"><span class="tag">ЛИДА</span><h3>Лидский замок</h3><p>Крепостные стены и история оборонительной архитектуры.</p><span class="price">Билет в презентации: 15 BYN</span></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5a/Old_Castle_Grodno.jpg')"></div><div class="card-body"><span class="tag">ГРОДНО</span><h3>Старый замок</h3><p>История королей и князей Великого княжества Литовского.</p><span class="price">Билет в презентации: 12 BYN</span></div></article>
+<article class="card"><div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Palace_of_Sapieha_%28Ruzhany%29.jpg')"></div><div class="card-body"><span class="tag">РУЖАНЫ</span><h3>Дворец Сапегов</h3><p>Дворцовый комплекс XVIII века, связанный с родом Сапегов.</p><span class="price">Билет в презентации: 10 BYN</span></div></article>
+</div></div></section>
+<section id="program" style="background:#ebe5d8"><div class="wrap"><div class="section-top"><div class="eyebrow">План путешествия</div><h2>Программа на 5 дней</h2><p class="lead">Предварительная структура маршрута. Точное распределение объектов по дням и время посещения необходимо согласовать перед продажей тура.</p></div><div class="program">
+<div class="day"><b>ДЕНЬ 01</b><h3>Минск — Мир — Несвиж</h3><p>Выезд, знакомство с Мирским замком и посещение Несвижа.</p></div>
+<div class="day"><b>ДЕНЬ 02</b><h3>Несвиж — Новогрудок</h3><p>Исторические достопримечательности и панорамы древнего города.</p></div>
+<div class="day"><b>ДЕНЬ 03</b><h3>Лида — Гродно</h3><p>Лидская крепость и знакомство со Старым замком Гродно.</p></div>
+<div class="day"><b>ДЕНЬ 04</b><h3>Гродно — Ружаны</h3><p>Продолжение маршрута по историческим объектам региона.</p></div>
+<div class="day"><b>ДЕНЬ 05</b><h3>Коссово — Минск</h3><p>Посещение Коссовского дворца и возвращение в Минск.</p></div>
+</div></div></section>
+<section id="stay"><div class="wrap"><div class="section-top"><div class="eyebrow">Размещение</div><h2>Где остановиться</h2><p class="lead">В презентации рассматриваются четыре варианта проживания. Доступность, цены и условия необходимо уточнять на даты поездки.</p></div><div class="stay-grid">
+<div class="stay"><span class="stars">★ 4.1 / 5*</span><h3>Гостиница «Несвиж»</h3><p>Центральное расположение рядом с замком и ратушей. Практичный вариант для знакомства с городом.</p></div>
+<div class="stay"><span class="stars">★ 4.0 / 5*</span><h3>Lida Hotel</h3><p>Удобный вариант для остановки в Лиде и продолжения автобусного маршрута.</p></div>
+<div class="stay"><span class="stars">★ 2.9 / 5*</span><h3>Отель «Семашко»</h3><p>В презентации отмечены чистота, сервис и завтраки; стоит уточнить наличие мест.</p></div>
+<div class="stay"><span class="stars">★ 4.4 / 5*</span><h3>Kossovo Hotel</h3><p>Вариант для ночёвки рядом с Коссовским дворцом.</p></div>
+</div></div></section>
+<section style="padding-top:0"><div class="wrap"><div class="section-top"><div class="eyebrow">Для кого этот тур</div><h2>Путешествие для любознательных</h2></div><div class="audience"><div>Молодёжь 18–30 лет</div><div>Семьи с детьми</div><div>Любители истории и архитектуры</div><div>Иностранные туристы</div></div></div></section>
+<section class="booking" id="booking"><div class="wrap booking-grid"><div><div class="eyebrow">Ваше путешествие начинается здесь</div><h2>Откройте замки Беларуси</h2><p class="lead">Оставьте заявку, чтобы уточнить даты, стоимость и наличие мест. Группа по проекту тура — до 20 человек.</p><p><strong>Маршрут:</strong> Минск → Мир → Несвиж → Новогрудок → Лида → Гродно → Ружаны → Коссово → Минск</p><p><strong>Продолжительность:</strong> 5 дней / 4 ночи</p></div>
+<form id="bookingForm"><input name="name" placeholder="Ваше имя" required><input name="phone" type="tel" placeholder="Телефон или Telegram" required><input name="people" type="number" min="1" max="20" placeholder="Количество человек" required><select name="contact"><option value="Телефон">Предпочтительный способ связи: телефон</option><option value="Telegram">Telegram</option><option value="Email">Email</option></select><textarea name="message" rows="3" placeholder="Вопрос или желаемая дата (необязательно)"></textarea><button class="btn" type="submit">Подготовить заявку ↗</button><small>Демонстрационная форма: после отправки откроется письмо с вашей заявкой. Для реального приёма заявок подключите почту или CRM.</small><div id="formStatus" aria-live="polite"></div></form>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© Замки Западной Беларуси · Учебный проект туристического продукта</span><span>#ЗамкиБеларуси　#ПознайБеларусь　#ЛегендыЗамков</span></div>
+<div style="max-width:1100px;margin:24px auto 0;padding:0 24px;color:#bdb7a8;font-size:12px;line-height:1.7">
+  Фотографии объектов: Wikimedia Commons — 
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Belarus-Mir-Castle-11.jpg" target="_blank" rel="noopener">Мирский замок</a>,
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Nesvizh_Castle_2011.JPG" target="_blank" rel="noopener">Несвижский замок</a>,
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Novogrudok_ruin.jpg" target="_blank" rel="noopener">Новогрудский замок</a>,
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Belarus_Lida_Castle_IMG_1570_2175.jpg" target="_blank" rel="noopener">Лидский замок</a>,
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Old_Castle_Grodno.jpg" target="_blank" rel="noopener">Старый замок в Гродно</a>,
+  <a style="color:inherit" href="https://commons.wikimedia.org/wiki/File:Palace_of_Sapieha_(Ruzhany).jpg" target="_blank" rel="noopener">Дворец Сапегов</a>.
+  Фотографии загружаются с Wikimedia Commons; для их отображения нужен интернет.
+</div>
+</footer>
+<script>
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const d=new FormData(this);
+ const subject=encodeURIComponent('Заявка на тур «Замки Западной Беларуси»');
+ const body=encodeURIComponent('Имя: '+d.get('name')+'\\nКонтакт: '+d.get('phone')+'\\nКоличество человек: '+d.get('people')+'\\nСпособ связи: '+d.get('contact')+'\\nКомментарий: '+(d.get('message')||'—'));
+ document.getElementById('formStatus').textContent='Открываем почтовую программу для отправки заявки.';
+ window.location.href='mailto:?subject='+subject+'&body='+body;
+});
+</script>
+</body></html>
